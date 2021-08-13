@@ -1,0 +1,47 @@
+.sidebar {
+  background-color: #481f3d;
+  border-top: 2px solid #b99750;
+  flex: 0.3;
+  max-width: 260px;
+  color: white;
+}
+.sidebar__header {
+  display: flex;
+  border-bottom: 1px solid #b99750;
+  padding-bottom: 12px;
+  padding: 13px;
+  justify-content: space-between;
+}
+.sidebar__header > .MuiSvgIcon-root {
+  padding: 8px;
+  font-size: 18px;
+  color: #b99750;
+  background-color: white;
+  border-radius: 999px;
+}
+.sidebar__info {
+  flex: 1;
+}
+.sidebar__info > h2 {
+  font-size: 15px;
+  font-weight: 900;
+  margin-bottom: 5px;
+  font-family: "Seoge UI";
+}
+.sidebar__info > h3 {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 400;
+}
+.sidebar__info > h3 > .MuiSvgIcon-root {
+  font-size: 14px;
+  margin-top: 1px;
+  margin-right: 2px;
+  color: green;
+}
+.sidebar > hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #b99850c0;
+}
